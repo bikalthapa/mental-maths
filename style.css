@@ -1,0 +1,99 @@
+.game_container{
+	background-color: lightskyblue;
+	width: 40%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	margin-top: 10%;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.game_container a{
+	width: 60%;
+}
+.game_container a button{
+	width: 100%;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+
+.problem{
+	background-color: lightskyblue;
+	padding: 10px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.problem .score{
+	display: flex;
+	flex-direction: row;
+}
+.problem .answer{
+	padding: 5px 10px 5px 10px;
+	border-radius: 20px;
+	border: 1px solid black;
+}
+.score p{
+	margin: 0px 10px 0px 10px;
+}
+
+
+
+
+.game_interface{
+	width: 100%;
+	z-index: -1;
+}
+.character{
+	height: 150px;
+	position: absolute;
+	left: -34px;
+	bottom: 0px;
+}
+.water{
+	min-width: 100%;
+	background-image: url(water.gif);
+	opacity: 0.5;
+	position: absolute;
+	bottom: 0px;
+}
+.shark{
+	height: 100px;
+}
+.rope{
+	z-index: -1;
+	width: 3px;
+	height: 350px;
+	background-color: brown;
+	position: absolute;
+	left: 50.4%;
+}
+.invisible{
+	display: none;
+}
+.visible{
+	display: block;
+}
+.game_over{
+	width: 40%;
+	background-color: lightblue;
+	position: absolute;
+	left: 35%;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow: 2px 2px 10px;
+}
+.over-btn{
+	width: 60%;
+	padding: 10px;
+	margin-top: 10px;
+}
